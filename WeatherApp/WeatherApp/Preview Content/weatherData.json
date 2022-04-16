@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": -64,
+        "lat": -31.1707
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 287.6,
+        "feels_like": 286.33,
+        "temp_min": 287.6,
+        "temp_max": 290.77,
+        "pressure": 1019,
+        "humidity": 47,
+        "sea_level": 1019,
+        "grnd_level": 972
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.68,
+        "deg": 18,
+        "gust": 3.69
+    },
+    "clouds": {
+        "all": 4
+    },
+    "dt": 1650068768,
+    "sys": {
+        "type": 1,
+        "id": 8226,
+        "country": "AR",
+        "sunrise": 1650018952,
+        "sunset": 1650059744
+    },
+    "timezone": -10800,
+    "id": 3860705,
+    "name": "Colonia Tirolesa",
+    "cod": 200
+}
