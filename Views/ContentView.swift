@@ -32,7 +32,6 @@ struct ContentView: View {
                             }
                         }
                 }
-                Text("Your coordinates are:\(location.longitude),\(location.latitude)")
             } else {
                 if locationManager.isLoading {
                     LoadingView()
