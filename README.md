@@ -8,6 +8,7 @@ The current weather is provided by OpenWeather , a free weather API.
 - [x] ~~Change icons depending on the weather~~
 - [x] ~~Hide coordinates~~
 - [x] ~~Fix background image~~
+- [ ] Add tests
 
 
 
