@@ -27,10 +27,16 @@ struct WeatherView: View {
                     
                     VStack {
                         HStack {
-                            VStack(spacing: 20) {
-                                Image(systemName: "cloud")
-                                    .font(.system(size: 40))
-                                
+                            VStack(spacing: 10) {
+                            let icons = weather.weather[0].icon
+                            AsyncImage(url: URL(string: "https://openweathermap.org/img/wn/\(icons).png")) { image in
+                                image
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 70)
+                            } placeholder: {
+                                ProgressView()
+                            }
                                 Text("\(weather.weather[0].main)")
                             }
                             .frame(width: 150, alignment: .leading)
