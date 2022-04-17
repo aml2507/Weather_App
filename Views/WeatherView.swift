@@ -49,8 +49,8 @@ struct WeatherView: View {
                                 .padding()
                         }
                         
-                        Spacer()
-                            .frame(height:  80)
+                       // Spacer()
+                            .frame(height:  120)
                         
                         AsyncImage(url: URL(string: "https://cdn.pixabay.com/photo/2020/01/24/21/33/city-4791269_960_720.png")) { image in
                             image
