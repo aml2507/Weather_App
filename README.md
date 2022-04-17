@@ -5,7 +5,7 @@ The current weather is provided by OpenWeather , a free weather API.
 
 # Improvements to do in future sprints 
 
-- [ ] Change icons depending on the weather 
+- [x] Change icons depending on the weather 
 - [x] Hide coordinates
 - [ ] Fix background image
 
@@ -13,5 +13,9 @@ The current weather is provided by OpenWeather , a free weather API.
 
 
 
-https://user-images.githubusercontent.com/48662612/163660763-bf94327b-1133-495d-a17a-f3d07c86e0a4.mov
+
+https://user-images.githubusercontent.com/48662612/163698872-36deefcc-87e5-4a43-9b69-158fb2408bd5.mov
+
+
+
 
